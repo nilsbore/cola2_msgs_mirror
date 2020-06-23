@@ -3,6 +3,7 @@
 
 name: bloom-release
 on:
+  release:
   push:
     paths:
       - package.xml
