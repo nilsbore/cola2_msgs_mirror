@@ -16,6 +16,7 @@ jobs:
           submodules: true
       - name: Install deps
         run: |
+          cd cola2_msgs
           ls
           rosdep update
           rosdep install --from-path . --ignore-src --rosdistro melodic -y
